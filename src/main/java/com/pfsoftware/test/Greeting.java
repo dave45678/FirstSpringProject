@@ -10,10 +10,10 @@ import javax.validation.constraints.Size;
 
 @Entity
 public class Greeting {
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     @NotNull
-    @Min(1)
+    //@Min(1)
     private long id;
 
     @NotNull
