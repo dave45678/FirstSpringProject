@@ -12,5 +12,9 @@ public class HomeController {
     	model.addAttribute("message", "HELLO!");
     	return "hello";
     }
+    @RequestMapping("/login")
+    public String login() {
+        return "login";
+    }
 }
 
